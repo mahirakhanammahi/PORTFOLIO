@@ -1,0 +1,503 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day - 71</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/fontawesome.css" />
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:400,400,500,700&display=swap"
+    />
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="./css/style.css " />
+  </head>
+
+  <body>
+    <!-- navbar section start  -->
+    <section class="header fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#"
+              >XOR Software Solution
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNavDropdown"
+              aria-controls="navbarNavDropdown"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <div class="containeree text-light" onclick="myFunction(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+            </button>
+            <div
+              class="collapse navbar-collapse text-white"
+              id="navbarNavDropdown"
+            >
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link text-white" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Portfolio</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- navbar section end  -->
+
+    <!-- hero section start  -->
+    <section class="hero_section">
+      <div class="hero_bg pt-5">
+        <div class="bgs"></div>
+        <div class="container bg_content text-center pt-5">
+          <h1 class="text-uppercase text-white font_size">Portfolio</h1>
+          <p class="text-white subtitles fst-italic">
+            A wonderful serenity has taken possession of my entire soul, <br />
+            like these sweet mornings of spring which I enjoy with my <br />
+            whole heart.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- hero section end  -->
+
+    <!-- category section start  -->
+    <div class="container-fluid mt-5">
+      <div class="filter filter-basic">
+        <div class="filter-nav text-center">
+          <button class="active filter-button" data-filter="">All</button>
+          <button class="filter-button" data-filter="nature">Nature</button>
+          <button class="filter-button" data-filter="food">Food</button>
+          <button class="filter-button" data-filter="architecture">
+            Architecture
+          </button>
+        </div>
+        <div class="filter-gallery mt-5">
+          <div class="row">
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="nature">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(40).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(1).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="food">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(42).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(2).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="nature">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(114).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(4).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(6).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="nature">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(115).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark text-uppercase">
+                    Lorem ipsum dolor
+                  </p>
+                </div>
+              </div>
+              <div class="" data-category="food">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(44).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(5).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="food">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(45).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="food">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(46).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="food">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(47).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="nature">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(111).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="architecture">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(4).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 my-1 filter_img">
+              <div class="g-bg">
+                <div class="container">
+                  <h3 class="pt-5 text-center text-uppercase">Fruit</h3>
+                  <p class="text-center text-dark">Lorem ipsum dolor</p>
+                </div>
+              </div>
+              <div class="" data-category="nature">
+                <div class="item-content">
+                  <img
+                    src="https://mdbootstrap.com/img/Photos/Lightbox/Thumbnail/img%20(112).jpg"
+                    alt="image"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- category section end  -->
+
+    <!-- footer section start  -->
+
+    <div class="module-mdall bg-dark text-light p-3 mt-5">
+      <div class="container">
+        <div class="row c_claass">
+          <div class="col-sm-6   col-lg-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">About XOR Software Solution</h5>
+              <p>
+                The languages only differ in their grammar, their pronunciation
+                and their most common words.
+              </p>
+              <p>Phone: +1 234 567 89 10</p>
+              Fax: +1 234 567 89 10
+              <p>Email:<a href="#">somecompany@example.com</a></p>
+            </div>
+          </div>
+          <div class="col-sm-6    col-lg-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Recent Comments</h5>
+              <ul class="icon-list">
+                <li>Maria on <a href="#">Designer Desk Essentials</a></li>
+                <li>John on <a href="#">Realistic Business Card Mockup</a></li>
+                <li>Andy on <a href="#">Eco bag Mockup</a></li>
+                <li>Jack on <a href="#">Bottle Mockup</a></li>
+                <li>Mark on <a href="#">Our trip to the Alps</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3 ">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Blog Categories</h5>
+              <ul class="icon-list">
+                <li><a href="#">Photography - 7</a></li>
+                <li><a href="#">Web Design - 3</a></li>
+                <li><a href="#">Illustration - 12</a></li>
+                <li><a href="#">Marketing - 1</a></li>
+                <li><a href="#">Wordpress - 16</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6    col-lg-3">
+            <div class="widget">
+              <h5 class="widget-title font-alt">Popular Posts</h5>
+              <ul class="widget-posts">
+                <li class="clearfix">
+                  <div class="widget-posts-image">
+                    <a href="#"
+                      ><img
+                        src="https://xorsoftbd.com/public/frontend/images/rp-1.jpg"
+                        alt="Post Thumbnail"
+                    /></a>
+                  </div>
+                  <div class="widget-posts-body">
+                    <div class="widget-posts-title">
+                      <a href="#">Designer Desk Essentials</a>
+                    </div>
+                    <div class="widget-posts-meta">23 january</div>
+                  </div>
+                </li>
+                <li class="clearfix">
+                  <div class="widget-posts-image">
+                    <a href="#"
+                      ><img
+                        src="https://xorsoftbd.com/public/frontend/images/rp-2.jpg"
+                        alt="Post Thumbnail"
+                    /></a>
+                  </div>
+                  <div class="widget-posts-body">
+                    <div class="widget-posts-title">
+                      <a href="#">Realistic Business Card Mockup</a>
+                    </div>
+                    <div class="widget-posts-meta">15 February</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer bg-dark text-uppercase">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p class="copyright font-alt ">
+              &copy; 2024 <a href="index.html " class="text-danger text-uppercase">TitaN</a>,
+              All Rights Reserved
+            </p>
+          </div>
+          <div class="col-md-6">
+            <div class="d-flex  "> 
+              <a class="text-light  me-2" href="#"><i class="fa-brands fa-facebook"></i></a
+              ><a href="#" class="text-light me-2"><i class="fa-brands fa-twitter"></i></a
+              ><a href="#" class="text-light me-2"><i class="fa-brands fa-dribbble"></i></a
+              ><a href="#" class="text-light me-2"><i class="fa-brands fa-skype"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- footer section end  -->
+
+    <!-- js link  -->
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Your custom scripts -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <script>
+      function myFunction(x) {
+        x.classList.toggle("change");
+      }
+    </script>
+  </body>
+</html>
